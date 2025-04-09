@@ -1,10 +1,16 @@
-$(function () {
+// $(function () {
   
-  $('.slider').slick({
-    arrows: false,
-    dots: true
-  });
+//   $('.slider').slick({
+//     arrows: false,
+//     dots: true
+//   });
 
 
 
+// });
+
+
+$(function(){
+  var mixer = mixitup('.portfolio__content');
+  
 });
