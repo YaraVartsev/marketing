@@ -289,7 +289,7 @@ body {
   background-image: url(../images/magic-bg.jpg);
   background-repeat: no-repeat;
   background-size: 50%;
-  background-position: left 42%;
+  background-position: left 82%;
 }
 
 .magic__inner {
@@ -614,13 +614,68 @@ ul.pricing__item {
   font-family: 'Montserrat', sans-serif;
 }
 
-.clients{
+.clients {
   padding: 69px 0 94px;
   color: #fff;
 }
 
-.clients__list{
+.clients__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.connection {
+  padding: 145px 0 160px;
+  background-image: url('../images/map-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: right 65%;
+}
+
+.conection__title {
+  margin-bottom: 80px;
+}
+
+.form {
+  max-width: 570px;
+}
+
+.form input,
+.form textarea {
+  border: none;
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid #373a39;
+  padding: 16px 0;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 3.71px;
+  color: #b8b8b8;
+  text-transform: uppercase;
+}
+
+.form textarea {
+  min-height: 140px;
+  resize: none;
+}
+
+.form button {
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 17px 70px 15px;
+  border: none;
+  background-color:  #242121;
+  cursor: pointer;
+  margin-top: 40px;
 }
