@@ -167,7 +167,7 @@ body {
 
 .about {
   background-color: #f6f8fa;
-  padding: 150px 0 144px;
+  padding: 143px 0 255px;
 }
 
 .about__inner {
@@ -675,7 +675,66 @@ ul.pricing__item {
   text-transform: uppercase;
   padding: 17px 70px 15px;
   border: none;
-  background-color:  #242121;
+  background-color: #242121;
   cursor: pointer;
   margin-top: 40px;
+}
+
+.footer__top {
+  padding: 110px 10px 60px;
+  background-color: #333;
+  text-align: center;
+}
+
+.footer__logo {
+  display: inline-block;
+  padding: 0 35px 4px;
+  border-bottom: 2px solid #fcbb08;
+  margin-bottom: 70px;
+}
+
+ul.footer__social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 65px;
+}
+
+.footer__social-list {
+  padding: 0 15px;
+}
+
+.footer__social-link {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 4px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer__contact {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.footer__contact a {
+  display: block;
+  margin: 10px 0;
+  color: #fff;
+}
+
+.go-top {
+  display: inline-block;
+}
+
+.footer__copy {
+  padding: 40px 10px;
+  font-size: 12px;
+  text-align: center;
+  color: #ccc;
+  background-color: #2a2c2b;
 }
